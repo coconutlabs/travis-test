@@ -1,6 +1,7 @@
 language: ruby
 rvm:
   - 2.2
+script: ruby app_spec.rb
 notifications:
   webhooks:
     - https://travis-hooks.ngrok.io
