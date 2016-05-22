@@ -1,7 +1,7 @@
 language: ruby
 rvm:
   - 2.2
-script: ruby app_spec.rb
+script: bundle exec ruby app_spec.rb
 notifications:
   webhooks:
     - https://build-tracker-hooks.ngrok.io/travis
