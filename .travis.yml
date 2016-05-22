@@ -4,4 +4,4 @@ rvm:
 script: ruby app_spec.rb
 notifications:
   webhooks:
-    - https://travis-hooks.ngrok.io
+    - https://build-tracker-hooks.ngrok.io/travis
