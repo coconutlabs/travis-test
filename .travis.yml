@@ -5,3 +5,4 @@ script: bundle exec ruby app_spec.rb
 notifications:
   webhooks:
     - https://build-tracker-hooks.ngrok.io/travis
+    - https://hooks.buildtracker.io/travis
